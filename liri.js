@@ -24,7 +24,7 @@ var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_i
 
 axios.get(queryUrl).then(
   function(response) {
-    console.log(response.data);
+    console.log(response[0].items);
 
    
   }
