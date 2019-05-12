@@ -13,12 +13,17 @@ node liri.js concer-this -- and your favorite artist.
 ex.
 node liri.js concert-this drake
 
+![](images/images/concert.png)
+
 to find your favorite song you would need to type in 
 node liri.js spotify-this-song -- and your favorite song
 ex. 
 node liri.js spotify-this-song wanted
 
+![](images/images/spotify.png)
+
 the movie request will pull your information from the OMBD website,
 and for the concert request it will pull from the bandsintown website,
 and for the song request, it will pull info from spotify
 
+![](images/images/movie.png)
